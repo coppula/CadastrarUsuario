@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="coppulaEntities-Web.config Connection String" description="coppulaEntities A Cadeia de Conexão usada em web.config pelo aplicativo para acessar o banco de dados." defaultValue="metadata=res://*/ModelCadastrar.csdl|res://*/ModelCadastrar.ssdl|res://*/ModelCadastrar.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=den1.mysql1.gear.host;user id=coppula;password=banc@123;persistsecurityinfo=True;database=coppula&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\jo_co\\source\\repos\\CadastrarUsuario\\CadastrarUsuario\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='coppulaEntities']/@connectionString" />
+  </parameter>
+</parameters>

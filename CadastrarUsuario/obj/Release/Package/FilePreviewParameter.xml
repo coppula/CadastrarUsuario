@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="coppula" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\jo_co\\source\\repos\\CadastrarUsuario\\CadastrarUsuario\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\jo_co\\source\\repos\\CadastrarUsuario\\CadastrarUsuario\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="coppulaEntities-Web.config Connection String" description="" value="metadata=res://*/ModelCadastrar.csdl|res://*/ModelCadastrar.ssdl|res://*/ModelCadastrar.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=den1.mysql1.gear.host;user id=coppula;password=banc@123;persistsecurityinfo=True;database=coppula&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\jo_co\\source\\repos\\CadastrarUsuario\\CadastrarUsuario\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='coppulaEntities']/@connectionString" />
+  </parameter>
+</parameters>
